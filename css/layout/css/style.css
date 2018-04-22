@@ -22,6 +22,10 @@ p {
     margin: 1em 0;
 }
 
+p code, li code {
+    background-color: #ECECEC;
+}
+
 h1, h2 {
     font-family: 'Bree Serif', serif;
     font-weight: normal;
@@ -37,6 +41,24 @@ h2 {
     font-family: 'Bree Serif', serif;
     margin: 1.2em 0;
     font-weight: normal;
+}
+
+a:link {
+    color: #D64078;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #D64078;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: black;
+    color: white;
 }
 
 #menu {
@@ -149,6 +171,33 @@ a.nav:hover {
     background-color: #c63b6f;
 }
 
+.elem {
+    border: solid  #6AC5AC 3px;
+    position: relative;
+}
+
+.elem-inline .label, .elem-inline .endlabel {
+    position: static;
+}
+
+.label, .endlabel {
+    position: absolute;
+    background-color: #6AC5AC;
+    color: #414142;
+    line-height: 1em;
+}
+
+.label {
+    top: 0;
+    left: 0;
+    padding: 0 3px 3px 0;
+}
+
+.endlabel {
+    right: 0;
+    bottom: 0;
+    padding: 3px 0 0 3px;
+}
 
 footer {
     text-align: center;
