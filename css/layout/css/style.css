@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0 0 1em 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #414142;
+    font-family: Arial;
+    background-color: #ededed;
+}
+
+body.rtl {
+    direction: rtl;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 1em 0;
+}
+
+h1, h2 {
+    font-family: 'Bree Serif', serif;
+    font-weight: normal;
+}
+
+h1 {
+    margin: 1.5em 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    margin: 1.2em 0;
+    font-weight: normal;
+}
+
+#menu {
+    background-color: whiteSmoke;
+    text-align: center;
+}
+
+#menu a {
+    color: #8F8F8F;
+    display: inline-block;
+    padding: .5em 1em;
+    text-shadow: 0 1px 0 #EDEDED;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: rgb(220, 220, 220);
+}
+
+#menu .home-link {
+    margin-right: 1em;
+}
+
+#logo {
+    text-align: center;
+    background-color: #ededed;
+    padding: 1em 0;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #414142;
+    position: relative;
+}
+
+#logo a:active {
+    background: none;
+}
+
+#logo img {
+    vertical-align: middle;
+}
+
+#logo span {
+    vertical-align: middle;
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    margin-left: .2em;
+}
+
+#container {
+    padding: 1em;
+    margin: 0 0 1em 0;
+    background-color: white;
+}
+
+.content {
+    max-width: 600px;
+    margin: 1em auto;
+}
+
+h1.content {
+    margin: .5em auto 1em;
+}
+
+.nav-wrapper {
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
+
+a.nav:before {
+    height: 5px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    content: "";
+    top: -6px;
+    left: 0;
+}
+
+a.nav {
+    background-color: #d64078;
+    color: white;
+    border-radius: .3em;
+    padding: .2em 0;
+    position: relative;
+    margin: 0 1.5em;
+    width: 10em;
+    display: inline-block;
+    text-decoration: none;
+    border: solid #b03060 1px;
+    border-bottom: solid #b03060 4px;
+    text-shadow: 0px 2px 0 #b03060;
+    -webkit-transition: all 0.1s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: all 0.1s ease-out;  /* Firefox 4-15 */
+    -o-transition: all 0.1s ease-out;  /* Opera 10.5鈥�12.00 */
+    transition: all 0.1s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.nav.prev {
+    margin-left: 0;
+}
+
+a.nav.next {
+    margin-right: 0;
+}
+
+a.nav:hover {
+    background-color: #c63b6f;
+}
+
+
+footer {
+    text-align: center;
+}
