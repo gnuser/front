@@ -211,6 +211,11 @@ a.nav:hover {
     position: static;
 }
 
+.ipsum {
+    color: #734161;
+    background-color: #eee;
+}
+
 .label, .endlabel {
     position: absolute;
     background-color: #6AC5AC;
